@@ -1,0 +1,192 @@
+	body {
+		background-color: #A8E37A;
+	}
+
+
+	span {
+    	text-align: center;
+		font-size: 90px;
+		color: black;
+    }
+
+    /*Set up background*/
+    #container1 {
+        width: 500px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    #colouringImage {
+    	position: relative;
+        float: left;
+		width: 498px;
+		height: 402px;
+		border: solid rgb(158, 0, 93) 2px;
+		border-radius: 10px;
+		border-bottom-left-radius: 10px;
+    }
+
+    #pallette {
+        float: center;
+		width: 502px;
+		height: 102px;
+		background-color: white;
+		border: solid 2px rgb(158, 0, 93);
+		border-radius: 10px;
+		border-bottom-right-radius: 10px;
+    }
+
+    /*Set up colour pallet*/
+    .colour {
+    	position: relative;
+    	float: left;
+    	display: inline-block;
+    	width: 50px;
+    	height: 68px;
+    }
+
+    .heart-square {
+    	position: absolute;
+    	width: 50%;
+    	height: 34%;
+    	left: 70%;
+    	top: 3%;
+    	border: solid rgb(158, 0, 93) 2px;
+    	z-index: 1;
+    }
+
+    /*set colours for colour pallette*/
+
+    #colour1 .heart-square  {
+    	background-color: white; 
+    }
+
+    #colour2 .heart-square  {
+    	background-color: gray; 
+    }
+
+    #colour3 .heart-square  {
+    	background-color: yellow; 
+    }
+
+    #colour4 .heart-square  {
+    	background-color: orange; 
+    }
+
+    #colour5 .heart-square  {
+    	background-color: pink; 
+    }
+
+    #colour6 .heart-square  {
+    	background-color: red; 
+    }
+
+    #colour7 .heart-square  {
+    	background-color: purple; 
+    }
+
+    #colour8 .heart-square  {
+    	background-color: lightblue; 
+    }
+
+    #colour9 .heart-square  {
+    	background-color: lightgreen; 
+    }
+
+    #colour10 .heart-square  {
+    	background-color: green; 
+    }
+    #colour11 .heart-square  {
+    	background-color: brown; 
+    }
+
+    #colour12 .heart-square  {
+    	background-color: rgb(26, 26, 26); 
+    }
+	
+	#colour13 .heart-square {
+    	background-color: rgb(204, 204, 0); 
+    }
+	
+	#colour14 .heart-square  {
+    	background-color: rgb(226, 89, 138); 
+    }
+	
+	#colour15 .heart-square  {
+    	background-color: rgb(203, 155, 216); 
+    }
+	
+	#colour16 .heart-square  {
+    	background-color: rgb(253, 255, 122); 
+    }
+	
+	#colour17 .heart-square  {
+    	background-color: rgb(0, 64, 255); 
+    }
+	
+	#colour18 .heart-square  {
+    	background-color: rgb(10, 81, 52); 
+    }
+
+    /*coloring page*/
+
+
+
+
+    #background {
+    	position: relative;
+        float: left;
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		border-bottom-left-radius: 10px;
+    }
+	
+	#head1 {
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	top: 35%;
+    	width: 2%;
+    	height: 2%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 2;
+    }
+	#head {
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	top: 36%;
+    	width: 27%;
+    	height: 33%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+    }
+
+    #headPatchRight {
+    	position: absolute;
+    	right: -0%;
+    	left: 0;
+    	top: 37%;
+    	width: 12%;
+    	height: 32%;
+    	background-color: white;
+    	border-radius: 70%;
+    	border-right: solid black 2px;
+    	border-left: solid black 2px;
+    	margin: 0 auto;
+    	z-index: 1;
+    }
+
+    .patch {
+    	background-color: white;
+    }
+
+    .background {
+    	background-color: white;
+    }

@@ -1,0 +1,376 @@
+	body {
+		background-color: #A8E37A;
+	}
+
+	span {
+    	text-align: center;
+		font-size: 90px;
+		color: black;
+    }
+
+    /*Set up background*/
+    #container1 {
+        width: 500px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    #colouringImage {
+    	position: relative;
+        float: left;
+		width: 498px;
+		height: 402px;
+		border: solid rgb(158, 0, 93) 2px;
+		border-radius: 10px;
+		border-bottom-left-radius: 10px;
+    }
+
+    #pallette {
+        float: center;
+		width: 502px;
+		height: 102px;
+		background-color: white;
+		border: solid 2px rgb(158, 0, 93);
+		border-radius: 10px;
+		border-bottom-right-radius: 10px;
+    }
+
+    /*Set up colour pallet*/
+    .colour {
+    	position: relative;
+    	float: left;
+    	display: inline-block;
+    	width: 50px;
+    	height: 68px;
+    }
+
+    .heart-square {
+    	position: absolute;
+    	width: 50%;
+    	height: 34%;
+    	left: 70%;
+    	top: 3%;
+    	border: solid rgb(158, 0, 93) 2px;
+    	z-index: 1;
+    }
+
+    /*set colours for colour pallette*/
+
+    #colour1 .heart-square  {
+    	background-color: white; 
+    }
+
+    #colour2 .heart-square  {
+    	background-color: gray; 
+    }
+
+    #colour3 .heart-square  {
+    	background-color: yellow; 
+    }
+
+    #colour4 .heart-square  {
+    	background-color: orange; 
+    }
+
+    #colour5 .heart-square  {
+    	background-color: pink; 
+    }
+
+    #colour6 .heart-square  {
+    	background-color: red; 
+    }
+
+    #colour7 .heart-square  {
+    	background-color: purple; 
+    }
+
+    #colour8 .heart-square  {
+    	background-color: lightblue; 
+    }
+
+    #colour9 .heart-square  {
+    	background-color: lightgreen; 
+    }
+
+    #colour10 .heart-square  {
+    	background-color: green; 
+    }
+    #colour11 .heart-square  {
+    	background-color: brown; 
+    }
+
+    #colour12 .heart-square  {
+    	background-color: rgb(26, 26, 26); 
+    }
+	
+	#colour13 .heart-square {
+    	background-color: rgb(204, 204, 0); 
+    }
+	
+	#colour14 .heart-square  {
+    	background-color: rgb(226, 89, 138); 
+    }
+	
+	#colour15 .heart-square  {
+    	background-color: rgb(203, 155, 216); 
+    }
+	
+	#colour16 .heart-square  {
+    	background-color: rgb(253, 255, 122); 
+    }
+	
+	#colour17 .heart-square  {
+    	background-color: rgb(0, 64, 255); 
+    }
+	
+	#colour18 .heart-square  {
+    	background-color: rgb(10, 81, 52); 
+    }
+
+    /*coloring page*/
+
+
+
+
+    #background {
+    	position: relative;
+        float: left;
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		border-bottom-left-radius: 10px;
+    }
+	
+	
+	#head {
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	top: 36%;
+    	width: 27%;
+    	height: 43%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 1;
+    }
+	
+	#head1 {
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	top: 27%;
+    	width: 8%;
+    	height: 15%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+    }
+	
+	#head2 {
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	top: 70%;
+    	width: 3%;
+    	height: 15%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+    }
+	
+	#head3 {
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	top:37%;
+    	width: 8%;
+    	height: 11%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 2;
+    }
+	
+	#head4 {
+    	position: absolute;
+    	left: -15%;
+    	right: 0;
+    	top:45%;
+    	width: 8%;
+    	height: 11%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 2;
+    }
+	
+	#head5 {
+    	position: absolute;
+    	left: -15%;
+    	right: 0;
+    	top:59%;
+    	width: 8%;
+    	height: 11%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 2;
+    }
+	
+	#head6 {
+    	position: absolute;
+    	left: 0;
+    	right: -15%;
+    	top:59%;
+    	width: 8%;
+    	height: 11%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 2;
+    }
+	
+	#head7 {
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	top:67%;
+    	width: 8%;
+    	height: 11%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 2;
+    }
+	
+	#head8 {
+    	position: absolute;
+    	left: 0;
+    	right: -15%;
+    	top:45%;
+    	width: 8%;
+    	height: 11%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 2;
+    }
+	
+	#head9 {
+    	position: absolute;
+    	left: 0;
+    	right: -17%;
+    	top:35%;
+    	width: 5%;
+    	height: 15%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 0;
+		transform: rotate(45deg);
+    }
+	
+	#head10 {
+    	position: absolute;
+    	left: 0;
+    	right: -17%;
+    	top:65%;
+    	width: 5%;
+    	height: 15%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 0;
+		transform: rotate(135deg);
+    }
+	
+	#head11 {
+    	position: absolute;
+    	left: -17%;
+    	right: 0;
+    	top:35%;
+    	width: 5%;
+    	height: 15%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 0;
+		transform: rotate(315deg);
+    }
+	
+	#head12 {
+    	position: absolute;
+    	left: -17%;
+    	right: 0;
+    	top:65%;
+    	width: 5%;
+    	height: 15%;
+    	background-color: white;
+    	border-radius: 50%;
+    	margin: 0 auto;
+    	border: solid black 2px;
+		z-index: 0;
+		transform: rotate(225deg);
+    }
+
+   
+
+    .patch {
+    	background-color: white;
+    }
+
+    .background {
+    	background-color: white;
+    }
+	.head {
+		background: white;
+	}
+	.head1 {
+		background: white;
+	}
+	.head2 {
+		background: white;
+	}
+	.head3 {
+		background: white;
+	}
+	.head4 {
+		background: white;
+	}
+	.head5 {
+		background: white;
+	}
+	.head6 {
+		background: white;
+	}
+	.head7 {
+		background: white;
+	}
+	.head8 {
+		background: white;
+	}
+	.head9 {
+		background: white;
+	}
+	.head10 {
+		background: white;
+	}
+	.head11 {
+		background: white;
+	}
+	.head12 {
+		background: white;
+	}
