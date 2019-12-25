@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Cari Perkataan Tersembunyi Jawi</title> 
+  		<link rel="stylesheet" href="css/wordsearch.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+
+  <style type="text/css">.ws-area {
+    background: #fafafa;
+    display: inline-block;
+    padding: 0px;
+    border-radius: 10px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none
+	font-size: 150%;
+}
+
+.ws-row {
+    line-height: 0;
+	font-size: 150%;
+}
+
+.ws-col {
+    cursor: pointer
+	width: 40px;
+	height: 40px;
+}
+
+.ws-col.ws-selected {
+    background: yellow
+}
+
+.ws-found {
+    background: palegreen;
+}
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center
+}
+
+.logo, #gameArea {
+    margin-bottom: 40px
+}
+
+.ws-area, .ws-words {
+    display: inline-block;
+    vertical-align: top
+	font-size: 190%;
+	padding:0px;
+}
+
+.ws-words {
+    margin-left: 20px;
+    text-align: left;
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+	font-size: 20px;
+	color:black;
+}
+
+.ws-word {
+    margin-bottom: 4px;
+    margin-right: 15px;
+	font-size: 150%;
+}
+
+.ws-word-found {
+    margin-bottom: 4px;
+    margin-right: 15px;
+    text-decoration: line-through;
+    color: black;
+	font-size: 150%;
+}</style></head>
+
+<body style="background-color:pink">
+<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">Cerdik Jawi</a></h1>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="index.html">Utama</a></li>
+									<li><a href="Pembelajaran.html">Pembelajaran</a></li>
+									<li><a href="Permainan.html">Permainan</a></li>
+									<li><a href="Pencapaian.html">Pencapaian</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+  <script src="js\wordsearch.min.js"></script>
+  
+	<div id="mysearchtask" class="wrap">
+	<h1 style="font-size:36px; padding-bottom:30px"> Cari perkataan Jawi yang tersembunyi! </h1>
+		<h2><div id="ws-score" style="font-size:26px; padding-bottom:30px">0 dari 10 perkataan Jawi telah dijumpai!</div></h2>
+
+
+
+<script src="js/WS3.js"></script>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+</body>
+<footer>
+<ul class="actions"> <center>
+		<li><a href="Permainan.html" class="button style1">* SELESAI *</a></li>
+		</center>
+		</ul>
+</footer>
+
+</html>
